@@ -9,7 +9,7 @@ import (
 	"net/url"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/bfg-finsa/telegraf/plugins/serializers/influx"
 )
 
 const (

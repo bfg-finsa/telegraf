@@ -3,8 +3,8 @@ package swap
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/plugins/inputs/system"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/system"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/shirou/gopsutil/mem"
 	"github.com/stretchr/testify/require"
 )

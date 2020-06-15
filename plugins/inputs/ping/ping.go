@@ -14,8 +14,8 @@ import (
 
 	"github.com/glinton/ping"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 )
 
 // HostPinger is a function that runs the "ping" function using a list of

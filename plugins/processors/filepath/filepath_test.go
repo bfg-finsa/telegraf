@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/testutil"
 )
 
 var samplePath = "/my/test//c/../path/file.log"

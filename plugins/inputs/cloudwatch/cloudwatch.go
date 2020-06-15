@@ -12,12 +12,12 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/influxdata/telegraf"
-	internalaws "github.com/influxdata/telegraf/config/aws"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/limiter"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	internalaws "github.com/bfg-finsa/telegraf/config/aws"
+	"github.com/bfg-finsa/telegraf/filter"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/internal/limiter"
+	"github.com/bfg-finsa/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 )
 
 type (

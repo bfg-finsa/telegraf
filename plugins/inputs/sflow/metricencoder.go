@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/metric"
 )
 
 func makeMetrics(p *V5Format) ([]telegraf.Metric, error) {

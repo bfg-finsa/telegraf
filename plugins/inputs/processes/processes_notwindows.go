@@ -14,8 +14,8 @@ import (
 	"syscall"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/linux_sysctl_fs"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/linux_sysctl_fs"
 )
 
 type Processes struct {

@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 )
 
 const mbeansPath = "/admin/mbeans?stats=true&wt=json&cat=CORE&cat=QUERYHANDLER&cat=UPDATEHANDLER&cat=CACHE"

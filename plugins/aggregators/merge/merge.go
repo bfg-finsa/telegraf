@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/bfg-finsa/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/plugins/aggregators"
 )
 
 const (

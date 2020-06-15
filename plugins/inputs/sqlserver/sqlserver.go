@@ -7,8 +7,8 @@ import (
 
 	_ "github.com/denisenkom/go-mssqldb" // go-mssqldb initialization
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/filter"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 )
 
 // SQLServer struct

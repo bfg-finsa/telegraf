@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/bfg-finsa/telegraf/selfstat"
 )
 
 const (

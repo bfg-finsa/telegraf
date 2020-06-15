@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	framing "github.com/influxdata/telegraf/internal/syslog"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/internal"
+	framing "github.com/bfg-finsa/telegraf/internal/syslog"
+	"github.com/bfg-finsa/telegraf/testutil"
 )
 
 var (

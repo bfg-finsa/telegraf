@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/metric"
 )
 
 type TimeFunc func() time.Time

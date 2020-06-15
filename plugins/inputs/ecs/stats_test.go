@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/testutil"
 )
 
 func Test_metastats(t *testing.T) {

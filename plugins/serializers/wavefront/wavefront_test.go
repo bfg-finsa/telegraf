@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/outputs/wavefront"
+	"github.com/bfg-finsa/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/plugins/outputs/wavefront"
 	"github.com/stretchr/testify/assert"
 )
 

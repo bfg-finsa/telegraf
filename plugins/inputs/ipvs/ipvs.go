@@ -10,8 +10,8 @@ import (
 
 	"github.com/docker/libnetwork/ipvs"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/common/logrus"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/common/logrus"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 )
 
 // IPVS holds the state for this input plugin

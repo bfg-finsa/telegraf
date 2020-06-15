@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
+	"github.com/bfg-finsa/telegraf/config"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/parsers"
+	"github.com/bfg-finsa/telegraf/plugins/parsers/influx"
 )
 
 const sampleConfig = `
@@ -37,7 +37,7 @@ const sampleConfig = `
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/bfg-finsa/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

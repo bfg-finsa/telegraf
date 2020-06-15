@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/plugins/outputs"
 )
 
 type Amon struct {

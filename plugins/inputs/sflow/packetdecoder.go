@@ -6,7 +6,7 @@ import (
 	"io"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs/sflow/binaryio"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/sflow/binaryio"
 	"github.com/pkg/errors"
 )
 

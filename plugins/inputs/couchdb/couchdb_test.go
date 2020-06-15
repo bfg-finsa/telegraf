@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/influxdata/telegraf/plugins/inputs/couchdb"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/couchdb"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

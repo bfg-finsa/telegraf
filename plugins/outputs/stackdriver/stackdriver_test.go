@@ -16,7 +16,7 @@ import (
 	emptypb "github.com/golang/protobuf/ptypes/empty"
 	googlepb "github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/api/option"
 	monitoringpb "google.golang.org/genproto/googleapis/monitoring/v3"

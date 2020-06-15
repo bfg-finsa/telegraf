@@ -17,10 +17,10 @@ import (
 	"github.com/influxdata/go-syslog/v2/octetcounting"
 	"github.com/influxdata/go-syslog/v2/rfc5424"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	framing "github.com/influxdata/telegraf/internal/syslog"
-	tlsConfig "github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/internal"
+	framing "github.com/bfg-finsa/telegraf/internal/syslog"
+	tlsConfig "github.com/bfg-finsa/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 )
 
 const defaultReadTimeout = time.Second * 5

@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/influxdata/wlog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

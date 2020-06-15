@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	inputs "github.com/influxdata/telegraf/plugins/inputs/prometheus"
-	"github.com/influxdata/telegraf/testutil"
+	inputs "github.com/bfg-finsa/telegraf/plugins/inputs/prometheus"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

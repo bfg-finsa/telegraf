@@ -6,8 +6,8 @@ import (
 
 	"github.com/eclipse/paho.mqtt.golang"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/plugins/parsers"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

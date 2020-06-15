@@ -2,7 +2,7 @@ package minmax
 
 import (
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/bfg-finsa/telegraf/plugins/aggregators"
 )
 
 type MinMax struct {

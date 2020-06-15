@@ -12,9 +12,9 @@ import (
 	"cloud.google.com/go/pubsub"
 	"encoding/base64"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/plugins/parsers"
+	"github.com/bfg-finsa/telegraf/plugins/serializers"
 	"google.golang.org/api/support/bundler"
 )
 

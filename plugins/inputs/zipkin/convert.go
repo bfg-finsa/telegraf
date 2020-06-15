@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/trace"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/zipkin/trace"
 )
 
 // LineProtocolConverter implements the Recorder interface; it is a

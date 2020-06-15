@@ -8,9 +8,9 @@ import (
 	"github.com/Microsoft/ApplicationInsights-Go/appinsights"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/outputs/application_insights/mocks"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/plugins/outputs/application_insights/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

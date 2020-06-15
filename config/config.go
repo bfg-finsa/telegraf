@@ -19,14 +19,14 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/models"
-	"github.com/influxdata/telegraf/plugins/aggregators"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/models"
+	"github.com/bfg-finsa/telegraf/plugins/aggregators"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/outputs"
+	"github.com/bfg-finsa/telegraf/plugins/parsers"
+	"github.com/bfg-finsa/telegraf/plugins/processors"
+	"github.com/bfg-finsa/telegraf/plugins/serializers"
 	"github.com/influxdata/toml"
 	"github.com/influxdata/toml/ast"
 )
@@ -827,7 +827,7 @@ func (c *Config) LoadConfigData(data []byte) error {
 
 // trimBOM trims the Byte-Order-Marks from the beginning of the file.
 // this is for Windows compatibility only.
-// see https://github.com/influxdata/telegraf/issues/1378
+// see https://github.com/bfg-finsa/telegraf/issues/1378
 func trimBOM(f []byte) []byte {
 	return bytes.TrimPrefix(f, []byte("\xef\xbb\xbf"))
 }

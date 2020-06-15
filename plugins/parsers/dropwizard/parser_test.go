@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/metric"
 
 	"fmt"
 	"time"

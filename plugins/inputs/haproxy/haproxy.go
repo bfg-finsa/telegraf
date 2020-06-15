@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 )
 
 //CSV format: https://cbonte.github.io/haproxy-dconv/1.5/configuration.html#9.1

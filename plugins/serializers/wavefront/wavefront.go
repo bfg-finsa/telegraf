@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs/wavefront"
+	"github.com/bfg-finsa/telegraf/plugins/outputs/wavefront"
 )
 
 // WavefrontSerializer : WavefrontSerializer struct

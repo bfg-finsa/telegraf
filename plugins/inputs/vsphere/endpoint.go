@@ -14,7 +14,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/telegraf/filter"
+	"github.com/bfg-finsa/telegraf/filter"
 
 	"github.com/influxdata/telegraf"
 	"github.com/vmware/govmomi/object"

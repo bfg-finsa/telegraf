@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/influxdata/telegraf/plugins/inputs/uwsgi"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/uwsgi"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

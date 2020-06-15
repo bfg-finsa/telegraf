@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/testutil"
 )
 
 func TestGetExitCode(t *testing.T) {

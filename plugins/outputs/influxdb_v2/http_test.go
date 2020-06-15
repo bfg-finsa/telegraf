@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	influxdb "github.com/influxdata/telegraf/plugins/outputs/influxdb_v2"
-	"github.com/influxdata/telegraf/testutil"
+	influxdb "github.com/bfg-finsa/telegraf/plugins/outputs/influxdb_v2"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

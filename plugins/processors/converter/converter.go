@@ -6,8 +6,8 @@ import (
 	"strconv"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/bfg-finsa/telegraf/filter"
+	"github.com/bfg-finsa/telegraf/plugins/processors"
 )
 
 var sampleConfig = `

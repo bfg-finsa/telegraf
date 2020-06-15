@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/system"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/system"
 	"github.com/shirou/gopsutil/cpu"
 )
 

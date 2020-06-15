@@ -2,7 +2,7 @@ package topk
 
 import (
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/metric"
 	"time"
 )
 

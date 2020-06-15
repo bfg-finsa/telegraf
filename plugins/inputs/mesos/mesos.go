@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	jsonparser "github.com/influxdata/telegraf/plugins/parsers/json"
+	"github.com/bfg-finsa/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
+	jsonparser "github.com/bfg-finsa/telegraf/plugins/parsers/json"
 )
 
 type Role string

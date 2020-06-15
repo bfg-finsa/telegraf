@@ -14,9 +14,9 @@ import (
 	"github.com/harlow/kinesis-consumer/checkpoint/ddb"
 
 	"github.com/influxdata/telegraf"
-	internalaws "github.com/influxdata/telegraf/config/aws"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	internalaws "github.com/bfg-finsa/telegraf/config/aws"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/parsers"
 )
 
 type (
@@ -115,7 +115,7 @@ var sampleConfig = `
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/bfg-finsa/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 
   ## Optional

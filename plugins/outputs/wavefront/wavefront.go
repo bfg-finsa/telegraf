@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/bfg-finsa/telegraf/plugins/outputs"
 	wavefront "github.com/wavefronthq/wavefront-sdk-go/senders"
 )
 

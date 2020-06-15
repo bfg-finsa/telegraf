@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/filter"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 )
 
 type runner func(cmdName string, UseSudo bool, InstanceName string, Timeout internal.Duration) (*bytes.Buffer, error)

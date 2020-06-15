@@ -23,12 +23,12 @@ You can try Telegraf right in your browser in the [Telegraf playground](https://
 ## Contributing
 
 There are many ways to contribute:
-- Fix and [report bugs](https://github.com/influxdata/telegraf/issues/new)
-- [Improve documentation](https://github.com/influxdata/telegraf/issues?q=is%3Aopen+label%3Adocumentation)
-- [Review code and feature proposals](https://github.com/influxdata/telegraf/pulls)
+- Fix and [report bugs](https://github.com/bfg-finsa/telegraf/issues/new)
+- [Improve documentation](https://github.com/bfg-finsa/telegraf/issues?q=is%3Aopen+label%3Adocumentation)
+- [Review code and feature proposals](https://github.com/bfg-finsa/telegraf/pulls)
 - Answer questions and discuss here on github and on the [Community Site](https://community.influxdata.com/)
 - [Contribute plugins](CONTRIBUTING.md)
-- [Contribute external plugins](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/execd/shim) *(experimental)*
+- [Contribute external plugins](https://github.com/bfg-finsa/telegraf/tree/master/plugins/inputs/execd/shim) *(experimental)*
 
 ## Minimum Requirements
 
@@ -43,7 +43,7 @@ Telegraf shares the same [minimum requirements][] as Go:
 ## Installation:
 
 You can download the binaries directly from the [downloads](https://www.influxdata.com/downloads) page
-or from the [releases](https://github.com/influxdata/telegraf/releases) section.
+or from the [releases](https://github.com/bfg-finsa/telegraf/releases) section.
 
 ### Ansible Role:
 

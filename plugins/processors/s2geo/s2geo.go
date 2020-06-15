@@ -5,7 +5,7 @@ import (
 
 	"github.com/golang/geo/s2"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/bfg-finsa/telegraf/plugins/processors"
 )
 
 type Geo struct {

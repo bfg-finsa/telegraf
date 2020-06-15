@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

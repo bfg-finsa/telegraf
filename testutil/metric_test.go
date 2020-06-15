@@ -6,7 +6,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/metric"
 )
 
 func TestRequireMetricEqual(t *testing.T) {

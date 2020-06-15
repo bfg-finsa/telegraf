@@ -6,8 +6,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs/zipkin/trace"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/zipkin/trace"
+	"github.com/bfg-finsa/telegraf/testutil"
 )
 
 func TestLineProtocolConverter_Record(t *testing.T) {

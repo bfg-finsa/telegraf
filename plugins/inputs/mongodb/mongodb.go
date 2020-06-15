@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	tlsint "github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	tlsint "github.com/bfg-finsa/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 	"gopkg.in/mgo.v2"
 )
 

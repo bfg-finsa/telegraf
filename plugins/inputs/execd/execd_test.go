@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/agent"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/models"
+	"github.com/bfg-finsa/telegraf/agent"
+	"github.com/bfg-finsa/telegraf/config"
+	"github.com/bfg-finsa/telegraf/models"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/bfg-finsa/telegraf/plugins/parsers"
 
 	"github.com/influxdata/telegraf"
 )

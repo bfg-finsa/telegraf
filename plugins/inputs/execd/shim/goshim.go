@@ -16,9 +16,9 @@ import (
 
 	"github.com/BurntSushi/toml"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/agent"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/bfg-finsa/telegraf/agent"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/serializers/influx"
 )
 
 type empty struct{}

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/testutil"
 )
 
 func MustMetric(t *testing.T, m *testutil.Metric) telegraf.Metric {

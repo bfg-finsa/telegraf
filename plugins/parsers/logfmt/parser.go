@@ -8,7 +8,7 @@ import (
 
 	"github.com/go-logfmt/logfmt"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/metric"
 )
 
 var (

@@ -6,8 +6,8 @@ import (
 	"net/textproto"
 	"testing"
 
-	"github.com/influxdata/telegraf/plugins/inputs/beanstalkd"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/beanstalkd"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

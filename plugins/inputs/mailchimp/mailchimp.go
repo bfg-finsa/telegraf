@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 )
 
 type MailChimp struct {

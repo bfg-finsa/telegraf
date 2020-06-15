@@ -8,8 +8,8 @@ import (
 
 	"github.com/garyburd/redigo/redis"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/parsers"
 )
 
 type RedisConsumer struct {
@@ -45,7 +45,7 @@ var sampleConfig = `
   ## Data format to consume. This can be "json", "influx" or "graphite"
   ## Each data format has it's own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/bfg-finsa/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

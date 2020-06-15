@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	tlsint "github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	tlsint "github.com/bfg-finsa/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/plugins/outputs"
+	"github.com/bfg-finsa/telegraf/plugins/serializers"
 )
 
 type Graphite struct {
@@ -36,7 +36,7 @@ var sampleConfig = `
   ## Prefix metrics name
   prefix = ""
   ## Graphite output template
-  ## see https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
+  ## see https://github.com/bfg-finsa/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
   template = "host.tags.measurement.field"
 
   ## Enable Graphite tags support

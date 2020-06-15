@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	tlsint "github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	tlsint "github.com/bfg-finsa/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
 
 	as "github.com/aerospike/aerospike-client-go"
 )

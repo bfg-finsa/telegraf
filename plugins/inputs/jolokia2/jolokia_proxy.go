@@ -2,8 +2,8 @@ package jolokia2
 
 import (
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/internal"
+	"github.com/bfg-finsa/telegraf/internal/tls"
 )
 
 type JolokiaProxy struct {

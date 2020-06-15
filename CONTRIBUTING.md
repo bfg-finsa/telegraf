@@ -14,9 +14,9 @@
 1. Open a new [pull request][].
 
 #### Contributing an External Plugin *(experimental)*
-Input plugins written for internal Telegraf can be run as externally-compiled plugins through the [Execd Input Plugin](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/execd) without having to change the plugin code.
+Input plugins written for internal Telegraf can be run as externally-compiled plugins through the [Execd Input Plugin](https://github.com/bfg-finsa/telegraf/tree/master/plugins/inputs/execd) without having to change the plugin code.
 
-Follow the guidelines of how to integrate your plugin with the [Execd Go Shim](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/execd/shim) to easily compile it as a separate app and run it from the inputs.execd plugin. 
+Follow the guidelines of how to integrate your plugin with the [Execd Go Shim](https://github.com/bfg-finsa/telegraf/tree/master/plugins/inputs/execd/shim) to easily compile it as a separate app and run it from the inputs.execd plugin. 
 
 #### Security Vulnerability Reporting
 InfluxData takes security and our users' trust very seriously. If you believe you have found a security issue in any of our
@@ -68,8 +68,8 @@ Use `make docker-kill` to stop the containers.
 
 
 [cla]: https://www.influxdata.com/legal/cla/
-[new issue]: https://github.com/influxdata/telegraf/issues/new/choose
-[pull request]: https://github.com/influxdata/telegraf/compare
+[new issue]: https://github.com/bfg-finsa/telegraf/issues/new/choose
+[pull request]: https://github.com/bfg-finsa/telegraf/compare
 [inputs]: /docs/INPUTS.md
 [processors]: /docs/PROCESSORS.md
 [aggregators]: /docs/AGGREGATORS.md

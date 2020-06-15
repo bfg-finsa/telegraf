@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/filter"
+	"github.com/bfg-finsa/telegraf/filter"
 )
 
 const DEFAULT_TEMPLATE = "host.tags.measurement.field"

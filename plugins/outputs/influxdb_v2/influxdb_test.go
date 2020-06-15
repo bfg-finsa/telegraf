@@ -3,9 +3,9 @@ package influxdb_v2_test
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	influxdb "github.com/influxdata/telegraf/plugins/outputs/influxdb_v2"
+	"github.com/bfg-finsa/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/plugins/outputs"
+	influxdb "github.com/bfg-finsa/telegraf/plugins/outputs/influxdb_v2"
 	"github.com/stretchr/testify/require"
 )
 

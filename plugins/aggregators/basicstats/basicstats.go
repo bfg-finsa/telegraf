@@ -4,7 +4,7 @@ import (
 	"math"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/bfg-finsa/telegraf/plugins/aggregators"
 )
 
 type BasicStats struct {

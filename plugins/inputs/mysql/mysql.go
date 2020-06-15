@@ -11,10 +11,10 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/mysql/v1"
-	"github.com/influxdata/telegraf/plugins/inputs/mysql/v2"
+	"github.com/bfg-finsa/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/plugins/inputs"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/mysql/v1"
+	"github.com/bfg-finsa/telegraf/plugins/inputs/mysql/v2"
 )
 
 type Mysql struct {

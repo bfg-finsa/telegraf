@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	tlsint "github.com/influxdata/telegraf/internal/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/outputs/prometheus_client/v1"
-	"github.com/influxdata/telegraf/plugins/outputs/prometheus_client/v2"
+	"github.com/bfg-finsa/telegraf/internal"
+	tlsint "github.com/bfg-finsa/telegraf/internal/tls"
+	"github.com/bfg-finsa/telegraf/plugins/outputs"
+	"github.com/bfg-finsa/telegraf/plugins/outputs/prometheus_client/v1"
+	"github.com/bfg-finsa/telegraf/plugins/outputs/prometheus_client/v2"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

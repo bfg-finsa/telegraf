@@ -10,7 +10,7 @@ import (
 	"collectd.org/network"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/metric"
 )
 
 const (

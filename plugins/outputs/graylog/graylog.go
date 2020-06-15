@@ -13,7 +13,7 @@ import (
 	"os"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/bfg-finsa/telegraf/plugins/outputs"
 )
 
 const (

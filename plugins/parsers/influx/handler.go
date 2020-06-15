@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/metric"
 )
 
 // MetricHandler implements the Handler interface and produces telegraf.Metric.

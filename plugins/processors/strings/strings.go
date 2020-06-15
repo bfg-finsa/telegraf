@@ -7,7 +7,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/bfg-finsa/telegraf/plugins/processors"
 )
 
 type Strings struct {

@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/metric"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 )
 

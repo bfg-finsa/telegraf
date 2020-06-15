@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/models"
+	"github.com/bfg-finsa/telegraf/models"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

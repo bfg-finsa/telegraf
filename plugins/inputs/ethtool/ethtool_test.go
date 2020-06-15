@@ -6,7 +6,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/bfg-finsa/telegraf/testutil"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

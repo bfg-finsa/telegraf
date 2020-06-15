@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/aggregators"
+	"github.com/bfg-finsa/telegraf/plugins/aggregators"
 )
 
 // bucketRightTag is the tag, which contains right bucket border

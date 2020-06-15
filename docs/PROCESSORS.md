@@ -8,7 +8,7 @@ This section is for developers who want to create a new processor plugin.
 * Processors should call `processors.Add` in their `init` function to register
   themselves.  See below for a quick example.
 * To be available within Telegraf itself, plugins must add themselves to the
-  `github.com/influxdata/telegraf/plugins/processors/all/all.go` file.
+  `github.com/bfg-finsa/telegraf/plugins/processors/all/all.go` file.
 * The `SampleConfig` function should return valid toml that describes how the
   processor can be configured. This is include in the output of `telegraf
   config`.
@@ -29,7 +29,7 @@ import (
 	"fmt"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/bfg-finsa/telegraf/plugins/processors"
 )
 
 type Printer struct {
@@ -64,6 +64,6 @@ func init() {
 }
 ```
 
-[SampleConfig]: https://github.com/influxdata/telegraf/wiki/SampleConfig
-[CodeStyle]: https://github.com/influxdata/telegraf/wiki/CodeStyle
+[SampleConfig]: https://github.com/bfg-finsa/telegraf/wiki/SampleConfig
+[CodeStyle]: https://github.com/bfg-finsa/telegraf/wiki/CodeStyle
 [telegraf.Processor]: https://godoc.org/github.com/influxdata/telegraf#Processor
